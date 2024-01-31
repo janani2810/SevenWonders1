@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://www.travelweekly.com.au/wp-content/uploads/2017/03/iStock-512277914.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+  			background-size: cover;
+  			background-size: 100% 100%;
+        }
+
+        .container {
+            
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        #game-image {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        input {
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        button {
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Login</h1>	
+    <form method="post" action="LoginServlet">
+        <input name="email" type="text" placeholder="Username" required>
+
+        <input name="pass" type="password" placeholder="Password" required>
+        <button type="submit" href="index.jsp">Login</button>
+        
+    </form>
+    <a href="Register.html"><h5>SIGN UP</h5></a>
+</div>
+</body>
+</html>
+

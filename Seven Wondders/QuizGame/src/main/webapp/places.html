@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+    body {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+  	 background-repeat: no-repeat;
+  	 background-attachment: fixed;
+     background-size:100% 100%;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+      .head{
+      text-align:center;
+      position: absolute;
+      top: 0px; 
+      left: 60px; 
+      font-family: 'Comic Sans MS', cursive;
+      font-size:20px;
+    }
+    .category-img{
+    float:left;
+    border-radius: 100%;
+    width: 160px;
+    box-shadow: 0px 5px 10px #18283f75;
+    margin:right;
+    }
+        #cartSection {
+            display: none;
+            position: fixed;
+            top: 60px;
+            right: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+  </style>
+</head>
+<body>
+<div class="head">
+<h2 style="color:white;">...Seven Wonders...</h2>
+
+    	<h1 style="color:white;text-align:center;" >Travel with us!!</h1>
+    	<div class="category">
+    <ul style="list-style-type: none; margin: 0; padding: 50px;">
+    
+        <li style="float: left; width: 15%; margin: 9px 80px 50px 120px;">
+            <a onclick="GAShopByCategorySource()" href="Tajmahal.html">
+                <img class="category-img" alt="" src="https://i1.wp.com/worldupclose.in/wp-content/uploads/2020/03/taj.jpg" style="float: left; border-radius: 100%; width: 160px; box-shadow: 0px 5px 4px #18283f75; margin-left: 10px; border: 3px solid white;">
+
+                <span style="font-size: 15px; color: white; font-family: CeraPRO-Medium; margin-left:4px;">Taj Mahal</span>
+            </a>
+        </li>
+         <li style="float: left; width: 15%; margin: 9px 80px 50px 120px;">
+            <a onclick="GAShopByCategorySource()" href="Greatwallofchina.html">
+                <img class="category-img" alt="" src="https://tse3.mm.bing.net/th?id=OIP.6JTJFkpMHyJ2h17Ls72GewHaEx&pid=Api&P=0&h=180" style="float: left; border-radius: 100%; width: 160px; box-shadow: 0px 5px 4px #18283f75; margin-left: 10px;border: 3px solid white;">
+                <span style="font-size: 15px; color: white; font-family: CeraPRO-Medium; margin-left: 10px;">Great wall of China</span>
+            </a>
+        </li>
+        <li style="float: left; width: 15%; margin: 9px 80px 50px 120px;">
+            <a onclick="GAShopByCategorySource()" href="petra.html">
+                <img class="category-img" alt="" src="https://tse1.mm.bing.net/th?id=OIP.eQrNuzSvQW-OkGC_ZX9pZAHaE8&pid=Api&P=0&h=180" style="float: left; border-radius: 100%; width: 160px; box-shadow: 0px 5px 4px #18283f75; margin-left: 10px;border: 3px solid white;">
+                <span style="font-size: 15px; color: white; font-family: CeraPRO-Medium; margin-left:0px;">Petra</span>
+            </a>
+        </li>
+        
+         <li style="float: left; width: 15%; margin: 9px 80px 50px 120px;clear: both;">
+            <a onclick="GAShopByCategorySource()" href="colosseum.html">
+                <img class="category-img" alt="" src="https://tse1.mm.bing.net/th?id=OIP.lzsIt5CgroUgqH0FhpqLwwAAAA&pid=Api&P=0&h=180" style="float: left; border-radius: 100%; width: 160px; box-shadow: 0px 5px 4px #18283f75; margin-left: 10px;border: 3px solid white;">
+                <span style="font-size: 15px; color: white; font-family: CeraPRO-Medium; margin-left: 2px;">Colosseum</span>
+            </a>
+        </li>
+         <li style="float: left; width: 15%; margin: 9px 80px 50px 120px;">
+            <a onclick="GAShopByCategorySource()" href="chichenitza.html">
+                <img class="category-img" alt="" src="https://tse1.mm.bing.net/th?id=OIP.Gr_phFjmp5Dy_46Qv2ISewHaEK&pid=Api&P=0&h=180" style="float: left; border-radius: 100%; width: 160px; box-shadow: 0px 5px 4px #18283f75; margin-left: 10px;border: 3px solid white;">
+                <span style="font-size: 15px; color: white; font-family: CeraPRO-Medium; margin-left: 5px;">Chichen Ltza</span>
+            </a>
+        </li>
+         <li style="float: left; width: 15%; margin: 9px 80px 50px 120px;">
+            <a onclick="GAShopByCategorySource()" href="Machupicchu.html">
+                <img class="category-img" alt="" src="https://tse3.mm.bing.net/th?id=OIP.1OEneC752m1u3yvEyvoXMwHaFj&pid=Api&P=0&h=180" style="float: left; border-radius: 100%; width: 160px; box-shadow: 0px 5px 4px #18283f75; margin-left: 10px;border: 3px solid white;">
+                <span style="font-size: 15px; color: white; font-family: CeraPRO-Medium; margin-left: 5px;">Machu Picchu
+            </a>
+        </li>
+         <li style="float: left; width: 15%; margin: 9px 80px 50px 120px;">
+            <a onclick="GAShopByCategorySource()" href="Christtheredeemer.html">
+                <img class="category-img" alt="" src="https://tse2.mm.bing.net/th?id=OIP.tjFC1JVFii7NaBYDCYqQtAHaFj&pid=Api&P=0&h=180" style="float: left; border-radius: 100%; width: 160px; box-shadow: 0px 5px 4px #18283f75; margin-left: 10px;border: 3px solid white;">
+                <span style="font-size: 15px; color: white; font-family: CeraPRO-Medium; margin-left: 5px;">Chirst the Redeemer</span>
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+    	
+    </div>
+  
+    </li>
+    </ul>
+<script>
+    function updateCartDisplay() {
+        const cartItemsList = document.getElementById('cartItemsList');
+        const cartData = sessionStorage.getItem('cartData');
+
+        if (cartData) {
+            const parsedCartData = JSON.parse(cartData);
+            cartItemsList.innerHTML = '';
+
+            parsedCartData.forEach(item => {
+                const cartItem = document.createElement('li');
+                cartItem.textContent = `${item.name} - Quantity: ${item.quantity}, Total Price: Rs.${item.price}`;
+                cartItemsList.appendChild(cartItem);
+            });
+        }
+    }
+
+    function toggleCart() {
+        const cartSection = document.getElementById('cartSection');
+        cartSection.style.display = (cartSection.style.display === 'none' || cartSection.style.display === '') ? 'block' : 'none';
+    }
+
+    // Initial update to display any existing cart items
+    updateCartDisplay();
+</script>
+    </body>
+    </html>>
